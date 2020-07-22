@@ -1,12 +1,22 @@
-
+let numbers = []
+let template = ''
+function getTemplate() {
+    '<h3></h3>'
+}
 
 function sixCombo() {
-    let num = 0    
+
+    let template = '<h3></h3>' 
     for(let i = 200000; i <= 299999; i++){
-        num = i
-        document.getElementById('displayNum').innerText = num
+        numbers.push(i)
+        numbers.forEach( number => {
+            template += number
+        })
+        document.getElementById('displayNum').innerHTML = template
         }   
     }
+
+
 
 
 
