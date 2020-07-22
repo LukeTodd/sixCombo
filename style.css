@@ -13,7 +13,7 @@ ul {
     margin-top: 50px;
     line-height: 1.5;
     font-size: 18px;
-    padding-left: none !important;
+    padding-left: 0 !important;
 }
 li:nth-child(odd){
     background-color: #dfdef7;
